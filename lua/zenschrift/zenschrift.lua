@@ -6,7 +6,7 @@ local M = {}
 -- Specify an override for any of these options when configuring.
 -- For example:
 -- ```
--- require("zenschrift.nvim").setup({
+-- require("zenschrift").setup({
 --   number = true, -- to show line numbers
 --   -- if nothing else is passed, 
 --   -- you will get defaults everywhere else 

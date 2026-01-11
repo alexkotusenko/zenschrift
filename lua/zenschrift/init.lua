@@ -1,3 +1,13 @@
-vim.api.nvim_create_user_command("Zen", function()
-  require("zenschrift").toggle()
-end, {})
+local zen = require("zenschrift.zenschrift") 
+
+local M = {} 
+
+function M.setup(opts) 
+	zen.setup(opts) 
+end 
+
+function M.toggle() 
+	zen.toggle() 
+end 
+
+return M
